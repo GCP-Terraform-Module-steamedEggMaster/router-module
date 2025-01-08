@@ -86,12 +86,12 @@ module "router" {
   ```
   router-module/
     ├── .github/workflows/  # github actions 자동화 테스트
+    ├── examples/           # 테스트를 위한 루트 모듈 모음 디렉터리
+    ├── test/               # 테스트 구성 디렉터리
     ├── main.tf             # 모듈의 핵심 구현
     ├── variables.tf        # 입력 변수 정의
     ├── outputs.tf          # 출력 정의
     ├── README.md           # 문서화 파일
-    ├── test/               # 테스트 구성 디렉터리
-    ├── examples/           # 테스트를 위한 루트 모듈 모음 디렉터리
   ```
 
 <br>
