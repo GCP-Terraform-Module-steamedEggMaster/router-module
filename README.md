@@ -120,7 +120,7 @@ module "router" {
 #### b. Google Provider 버전
 | 버전 범위 | 설명                              |
 |-----------|-----------------------------------|
-| `~> 4.0`  | 최소 지원 버전                   |
+| `~> 6.0`  | 최소 지원 버전                   |
 
 <br>
 
@@ -135,6 +135,7 @@ module "router" {
     ├── main.tf             # 모듈의 핵심 구현
     ├── variables.tf        # 입력 변수 정의
     ├── outputs.tf          # 출력 정의
+    ├── versions.tf         # 버전 정의
     ├── README.md           # 문서화 파일
   ```
 
